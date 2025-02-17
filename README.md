@@ -49,7 +49,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 ### 🔽 Clonar o Repositório
 
 ```sh
-git clone https://github.com/kamilapantoja/sistema-tramitacao-documentos-frontend.git
+git clone git@github.com:kamilapantoja/sistema-tramitacao-documentos-frontend.git
 ```
 
 ### 📂 Acessar a pasta do projeto
