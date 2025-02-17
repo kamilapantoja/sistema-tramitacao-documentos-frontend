@@ -21,19 +21,19 @@ Na tela de Gerenciamento de Documentos é possível visualizar uma lista de docu
 - O setor que enviou o documento não poderá ser o mesmo que recebe o documento
 
 ```md
-![Tela De Gerenciamento de Documentos](assets/tela-gerenciamento.png)
-![Modal de Cadastro de Documento](assets/novo-documento.png)
-![Modal de Edição de Documento](assets/edita-documento.png)
-![Modal de Enviar Documento](assets/modal-enviar-documento.png)
-![Modal de Receber Documento](assets/receber-documento.png)
-![Modal de Visualizacao de Historico de Tramitações](assets/historico-tramitacoes.png)
+![Tela De Gerenciamento de Documentos](src/assets/tela-gerenciamento.png)
+![Modal de Cadastro de Documento](src/assets/novo-documento.png)
+![Modal de Edição de Documento](src/assets/edita-documento.png)
+![Modal de Enviar Documento](src/assets/modal-enviar-documento.png)
+![Modal de Receber Documento](src/assets/receber-documento.png)
+![Modal de Visualizacao de Historico de Tramitações](src/assets/historico-tramitacoes.png)
 ```
 No menu lateral do sistema é possível navegar entre as telas de Gerenciamento de Documentos e de Setores. Na tela de Gerenciamento de setores é possível visualizar a lista de setores, cadastrar e editar os setores.
 ```md
-![Menu Lateral](assets/tela-gerenciamento.png)
-![Tela de Gerenciamento de Setores](assets/listagem-setor.png)
-![Modal de Edicao de Setor](assets/edicao-setor.png)
-![Modal de Cadastro de Setor](assets/novo-setor.png)
+![Menu Lateral](src/assets/tela-gerenciamento.png)
+![Tela de Gerenciamento de Setores](src/assets/listagem-setor.png)
+![Modal de Edicao de Setor](src/assets/edicao-setor.png)
+![Modal de Cadastro de Setor](src/assets/novo-setor.png)
 ```
 
 ## 🛠️ Tecnologias Utilizadas
