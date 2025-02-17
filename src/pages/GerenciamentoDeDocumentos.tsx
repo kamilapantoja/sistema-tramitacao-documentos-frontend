@@ -2,7 +2,6 @@ import { Card } from "primereact/card";
 import { DataTable } from "primereact/datatable";
 import { useEffect, useRef, useState } from "react";
 import DocumentService from "../service/documentService";
-// import { Documento } from "./model/documento";
 import { Column } from "primereact/column";
 import { Button } from "primereact/button";
 import { FilterMatchMode } from "primereact/api";
@@ -14,7 +13,6 @@ import { TramitarDialog } from "../components/TramitarDialogo";
 import { HistoricoDialog } from "../components/HistoricoDialog";
 
 function GerenciamentoDeDocumentos() {
-    // const [documentos, setDocumentos] = useState<Documento[]>();
     const [documentosRows, setDocumentosRows] = useState<DocumentoRow[]>();
     const [loading, setLoading] = useState(false);
     const [documentoDialogVisivel, setDocumentoDialogVisivel] = useState(false);
@@ -34,17 +32,6 @@ function GerenciamentoDeDocumentos() {
 
     const documentService = new DocumentService();
 
-    /*const hasAttachmentFilterTemplate = (
-        options: ColumnFilterElementTemplateOptions
-    ) => {
-        return (
-            <TriStateCheckbox
-                value={options.value}
-                onChange={(e) => options.filterApplyCallback(e.value)}
-            />
-        );
-    };*/
-
     useEffect(() => {
         loadDocuments(); // <- async
     }, []);
@@ -52,10 +39,8 @@ function GerenciamentoDeDocumentos() {
     const loadDocuments = async () => {
         setLoading(true);
         const response = await documentService.getDocuments();
-        // setDocumentos(response);
         setDocumentosRows(
             response.map((d) => {
-                // TODO revisar tramitation
                 const mostRecentTramitation =
                     documentService.getTramitacaoMaisRecente(d);
                 return {
@@ -270,8 +255,6 @@ function GerenciamentoDeDocumentos() {
                 <Column
                     header="Anexo"
                     field="anexo"
-                    // filter
-                    // filterElement={hasAttachmentFilterTemplate}
                     body={(doc) => attatchmentButtonIfHas(doc)}
                     dataType="boolean"
                 />

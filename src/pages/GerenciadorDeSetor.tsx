@@ -113,7 +113,6 @@ export const GerenciadorDeSetor = () => {
                 loading={loading}
                 value={setores}
                 filterDisplay="row"
-                // filters={filters}
                 filterIcon={[]}
                 paginator
                 rows={5}

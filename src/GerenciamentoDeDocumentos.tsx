@@ -51,7 +51,6 @@ function GerenciamentoDeDocumentos() {
         setDocumentos(response);
         setDocumentosRows(
             response.map((d) => {
-                // TODO revisar tramitation
                 let mostRecentTramitation: Tramitacao | undefined;
                 let biggerDate: number | undefined;
                 for (const tramitacao of d.tramitacoes) {
