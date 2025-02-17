@@ -32,7 +32,7 @@ No menu lateral do sistema é possível navegar entre as telas de Gerenciamento 
 ```md
 ![Menu Lateral](src/assets/tela-gerenciamento.png)
 ![Tela de Gerenciamento de Setores](src/assets/listagem-setor.png)
-![Modal de Edicao de Setor](src/assets/edicao-setor.png)
+![Modal de Edicao de Setor](src\assets\edicao-setor.png)
 ![Modal de Cadastro de Setor](src/assets/novo-setor.png)
 ```
 
