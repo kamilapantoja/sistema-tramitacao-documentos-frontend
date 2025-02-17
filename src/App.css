@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.p-toolbar{
+  background-color: rgb(34, 46, 120);
+  border: none;
+  padding: 0;
+}
+.kamicontainer {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.document-dialog {
+  width: 90vw;
+  max-width: 600px;
+}
+
+.upload-field .p-fileupload-buttonbar{
+  background-color: transparent;
+  border: none;
+}
+.upload-field .p-fileupload-buttonbar button,
+.upload-field .p-fileupload-file-badge{
+  display: none;
+}
+.formulario input,
+.formulario textarea,
+.formulario .p-dropdown{
+  width: 100%;
+}
+
+.upload-field .p-fileupload-content{
+  padding: 0;
+}
+
+.upload-field .p-fileupload-buttonbar{
+  padding: 0;
+}
+.upload-field .p-progressbar{
+  display: none;
+}
+.upload-field .p-fileupload-content{
+  margin-top: .5rem;
+}
+.gerencia-documentos .p-column-filter-element{
+  width: 100%;
+}
+.gerencia-documentos .p-column-filter-menu-button,
+.gerencia-documentos .p-column-filter-clear-button{
+  display: none;
+}
+.gerencia-documentos .p-column-filter-element{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tramitacao-dialog{
+  background-color: red;
+}
+
+.historico-setor-nome{
+  color: rgb(34, 46, 120);
+  font-weight: 500;
+}
+
+
+.p-sidebar{
+
+  background-color: rgb(20, 182, 213);
+}
+a:link{
+  text-decoration: none;
+}
+.menu-item{
+  width: 100%;
+  padding: 10px 20px;
+  border-bottom: 1px solid white;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.p-sidebar-close{
+  color: white;
+}
