@@ -64,6 +64,8 @@ cd sistema-tramitacao-documentos-frontend
 npm install
 ```
 
+Configure a variável .env colocando a porta onde o seu backend está rodando.
+
 ### 🚀 Rodar o projeto localmente
 
 ```sh
