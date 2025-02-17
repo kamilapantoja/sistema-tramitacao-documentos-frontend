@@ -29,7 +29,7 @@ Na tela de Gerenciamento de Documentos é possível visualizar uma lista de docu
 
 No menu lateral do sistema é possível navegar entre as telas de Gerenciamento de Documentos e de Setores. Na tela de Gerenciamento de setores é possível visualizar a lista de setores, cadastrar e editar os setores.
 
-![Menu Lateral](src/assets/tela-gerenciamento.png)
+![Menu Lateral](src/assets/menu-lateral.png)
 ![Tela de Gerenciamento de Setores](src/assets/listagem-setor.png)
 ![Modal de Edicao de Setor](src/assets/edicao-setor.png)
 ![Modal de Cadastro de Setor](src/assets/novo-setor.png)
